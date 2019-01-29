@@ -15,7 +15,6 @@ SPAMCALL v1.0 UNLIMITED
 <li> $ git clone https://github.com/Bangnaga1/UnliSpam
 <li> $ pkg install python2
 <li> $ pip2 install requests 
-<li> $ pkg install vim
 <li> $ cd UnliSpam
 <li> $ ls
 <li>$ python2 call.py
