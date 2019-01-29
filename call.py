@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 #SpamCall UNLIMITED
-#Tolong jangan disalahgukan,,resiko tanggung sendiri
+#Tolong jangan disalahgunakan,,resiko tanggung sendiri
 # Bang Naga
 
 import requests,json,time,subprocess
@@ -33,7 +33,7 @@ while x < d:
    e = requests.post(c+s, data=b)
    f = json.loads(e.text)
    if "nexmo_request_id" in f:
-       print "033[1;36m[+] SUCESS WITH ID",f["nexmo_request_id"]
+       print "[+] SUCESS WITH ID",f["nexmo_request_id"]
    else:
-       print "033[1;36m[+] Spam Succes"
+       print "[+] Spam Succes"
          
