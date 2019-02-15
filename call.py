@@ -26,7 +26,7 @@ x = 0
 print banner
 a = raw_input("[+] Lanjutkan (y/n): ")
 s = raw_input("[+] Nomor Target : ")
-d = raw_input("[+] Jumlah : ")
+d = raw_input("[+] Setuju ? (1) : ")
 while x < d:
    b = {"https://xxnx.com":a}
    c = " https://0x.nakocoders.org/rest-api/lain-nya/api.php?nomor="
